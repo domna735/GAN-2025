@@ -1,0 +1,2 @@
+metric,real_n,real_mean,real_median,real_std,gen_n,gen_mean,gen_median,gen_std,abs_mean_diff,abs_median_diff
+mean_db,683,-37.70,-36.24,13.42,32,-79.47,-80.53,5.78,41.77,44.29

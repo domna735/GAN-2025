@@ -1,0 +1,60 @@
+# Python venvs
+.venv_cpu/
+.venv_gpu/
+$venvName/
+
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Logs / runs / large artifacts (keep small metrics JSON & CSV, ignore huge intermediates)
+runs/gen/
+runs/logs/
+runs/tb/
+# Keep metrics & predictions but you can fine-tune later
+# If you want to version checkpoints selectively, uncomment and add patterns below.
+*.ckpt
+*.h5
+
+# Generated plots (optionally track a curated subset later)
+runs/plots/
+聲頻圖/
+
+# Data (raw & processed) — add exceptions for tiny sample subsets if needed
+vowel_length_gan_2025-08-24/processed_data/
+processed_data/
+language_mp3/
+Vietnamese/
+Thai.zip
+Vietnamese.zip
+*.xlsx
+
+# Large artifact archives
+runs/archive/
+runs/checkpoints/
+runs/deliverables/
+
+# Cleanup scripts (optional, can track if needed)
+archive_outdated_runs.ps1
+cleanup_old_files.ps1
+
+# Generated reports (keep only markdown/text in repo)
+*.docx
+*.pdf
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorBoard event files
+*.tfevents.*
+
+# Temporary
+*.tmp
+*.bak

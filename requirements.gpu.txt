@@ -1,0 +1,19 @@
+# GPU environment (WSL or Windows with CUDA runtime) — versions aligned with project logs
+# Create venv, then: python -m pip install -r requirements.gpu.txt
+
+# TensorFlow (Windows native = CPU only after 2.10). For GPU use WSL2 and install
+# the same file there replacing this line with: tensorflow[and-cuda]==2.17.1
+tensorflow==2.17.1
+numpy==1.26.4
+scipy==1.11.4
+librosa==0.10.1
+soundfile==0.12.1
+audioread==3.0.1
+matplotlib==3.8.4
+scikit-learn==1.5.2
+pandas==2.2.2
+numba==0.60.0
+threadpoolctl==3.6.0
+joblib==1.5.2
+# TensorBoard must match TF 2.17.x range (<2.18,>=2.17)
+tensorboard==2.17.1
